@@ -11,7 +11,7 @@ function rollNote(resultContainer) {
 
 function rollD6(resultContainer) {
     const res = document.createElement('img');
-    res.src = `../img/dice_${Math.floor(Math.random() * 5) + 1}.png`
+    res.src = `img/dice_${Math.floor(Math.random() * 5) + 1}.png`
     resultContainer.appendChild(res);
 }
 
